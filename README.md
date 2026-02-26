@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Social Media App is a scalable full-stack social networking platform where users can create profiles, share posts, and interact with others in real time. The project demonstrates advanced Next.js architecture, real-time communication, and modern backend integration.
 
-## Getting Started
+Features
 
-First, run the development server:
+-User profile creation and management
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+-Create, edit, and delete posts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-Real-time chat functionality using WebSockets
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-Real-time notifications
 
-## Learn More
+-Secure user authentication with OAuth (Firebase)
 
-To learn more about Next.js, take a look at the following resources:
+-Advanced routing with dynamic segments (Next.js)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Persistent data storage using Firestore and MongoDB
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-Session management and state handling
 
-## Deploy on Vercel
+-Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Frontend: Next.js, TailwindCSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Backend Services: Firebase
 
-## Schema Reference
+Authentication: Firebase OAuth
 
-You can check this [notion doc](https://www.notion.so/Social-Network-GraphCMS-Schema-cc22a294d4c84a08aba25858f054db27)
+Database: Firestore / MongoDB
+
+Real-Time Communication: WebSockets
+
+-Technical Highlights
+
+Implemented scalable real-time features
+
+Efficient state management in a complex social platform
+
+Integrated Firebase APIs for authentication and backend services
+
+Built dynamic routing and optimized rendering with Next.js

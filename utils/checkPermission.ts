@@ -8,6 +8,7 @@ export const logout = (dispatch: any) => {
   localStorage.clear();
   dispatch(resetUser());
 };
+// This function is used to log out the user, it clears the token from the cookies and local storage, it also dispatches the resetUser action to clear the user data from the state and redirects the user to the login page.
 
 const checkPermission = (userId: string, dispatch: any) => {
   if (!userId) {
