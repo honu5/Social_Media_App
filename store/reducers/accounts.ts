@@ -6,6 +6,7 @@ import {
 import client from "utils/apolloClient";
 import coercedGet from "utils/coercedGet";
 import { ACCOUNTS } from "queries/accounts";
+// This file contains the Redux slice for the accounts, it defines the initial state, the reducers and the async thunks for fetching the accounts from the GraphCMS endpoint, it also defines a selector for selecting the accounts from the state, it is used in the FollowSuggestions component to show the follow suggestions for the user.
 
 type AccountsProps = {
   first?: number;

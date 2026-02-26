@@ -8,6 +8,7 @@ import coercedGet from "utils/coercedGet";
 import { ADD_FRIEND } from "mutations/addFriend";
 import { FRIENDS } from "queries/friends";
 import getUniqueValues from "utils/getUniqueValues";
+// This file contains the Redux slice for the friends, it defines the initial state, the reducers and the async thunks for fetching the friends of a user and adding a friend, it also defines a selector for selecting the friends from the state, it is used in the AppWrapper component to fetch the friends of the current user and in the FollowSuggestions component to show the follow suggestions for the user.
 
 export const getFriends = createAsyncThunk(
   "friends/getFriends",

@@ -12,6 +12,7 @@ import client from "utils/apolloClient";
 import toastr from "toastr";
 import clientCookie from "js-cookie";
 import { CREATE_ACCOUNT } from "mutations/account";
+// This file contains the Redux slice for the authentication, it defines the initial state, the reducers and the async thunks for creating a user and logging in a user, it also defines selectors for selecting the user and the current user from the state, it is used in the Login and Register components to handle the authentication of the users.
 
 export const createUser = createAsyncThunk(
   "auth/createUser",
