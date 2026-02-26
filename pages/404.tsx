@@ -1,4 +1,5 @@
 import Link from "next/link";
+//404 page
 
 const ErrorPage = () => (
   <>
