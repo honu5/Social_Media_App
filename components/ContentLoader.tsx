@@ -6,6 +6,7 @@ type Props = {
   backgroundColor?: string;
   foregroundColor?: string;
 };
+// eslint-disable-next-line import/no-default-export
 
 const Loader = ({
   width = 200,

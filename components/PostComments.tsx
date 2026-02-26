@@ -8,6 +8,7 @@ import STORAGE from "constants/storage";
 type Props = {
   id: string;
 };
+// eslint-disable-next-line react/function-component-definition
 
 const PostComments = ({ id }: Props): ReactElement => {
   const { data, loading } = useQuery(COMMENTS_BY_POST_ID, {

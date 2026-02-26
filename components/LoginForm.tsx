@@ -10,6 +10,7 @@ const LoginForm = () => {
   const submit = async (e) => {
     dispatch(loginUser(getValues()));
   };
+  // eslint-disable-next-line react/jsx-no-bind
 
   return (
     <>

@@ -17,6 +17,7 @@ const ProfileCard = () => {
     },
   });
 
+  // TODO: use account query to get followers count and avatar url instead of using redux store for that
   const account = coercedGet(data, "account", {});
   const followers = coercedGet(account, "followers", []).length;
 

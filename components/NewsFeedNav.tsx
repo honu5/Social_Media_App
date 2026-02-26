@@ -1,4 +1,5 @@
 import Link from "next/link";
+//new feed features
 
 const NewsFeedNav = () => (
   <ul className="nav-news-feed">
@@ -14,6 +15,7 @@ const NewsFeedNav = () => (
         <a href="newsfeed-people-nearby">People Nearby</a>
       </div>
     </li>
+    
     <li>
       <i className="icon ion-ios-people-outline"></i>
       <div>

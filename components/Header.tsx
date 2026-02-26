@@ -108,10 +108,7 @@ const Header = () => {
             <ul className="dropdown-menu login">
               <li>
                 <a href="#">Timeline</a>
-              </li>
-              <li>
-                <a href="timeline-about">Timeline About</a>
-              </li>
+            
               <li>
                 <a href="timeline-album">Timeline Album</a>
               </li>

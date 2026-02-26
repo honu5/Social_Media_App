@@ -69,5 +69,6 @@ const FollowAnchor = styled.a`
   cursor: pointer;
   text-decoration: none;
 `;
+// eslint-disable-next-line import/no-default-export
 
 export default FollowSuggestions;

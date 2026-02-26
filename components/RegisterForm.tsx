@@ -15,6 +15,7 @@ const RegisterForm = () => {
     const params = {
       ...getValues(),
     };
+    // TODO - Add validation here
 
     const {
       password,

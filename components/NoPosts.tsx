@@ -9,6 +9,7 @@ const NoPosts = () => {
     </Root>
   );
 };
+// eslint-disable-next-line import/no-default-export
 
 const Root = styled.div`
   padding: 20px;

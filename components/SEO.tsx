@@ -7,5 +7,5 @@ const SEO = ({ title }: { title: string }) => {
     </Head>
   );
 };
-
+//SEO component to set the title of the page, can be extended to include meta tags and other SEO related tags in the future
 export default SEO;

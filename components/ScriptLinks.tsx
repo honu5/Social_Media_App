@@ -20,5 +20,6 @@ const ScriptLinks = () => (
     <script src="js/script.js"></script>
   </Head>
 );
+// eslint-disable-next-line import/no-default-export
 
 export default ScriptLinks;

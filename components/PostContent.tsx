@@ -9,6 +9,7 @@ import { selectCurrentUser } from "store/reducers/auth";
 import { selectFriends } from "store/reducers/friends";
 import ContentLoader from "./ContentLoader";
 import NoPosts from "./NoPosts";
+// eslint-disable-next-line react/function-component-definition
 
 const PostContent = () => {
   const { data: friends } = useSelector(selectFriends);
