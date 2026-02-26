@@ -8,6 +8,7 @@ import AppWrapper from "components/AppWrapper";
 import ScriptLinks from "components/ScriptLinks";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
+//server side auth using jwt
 
 dayjs.extend(relativeTime);
 
