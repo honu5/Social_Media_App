@@ -27,8 +27,7 @@ const Home = ({ userId }: { userId: string | null }) => {
               <div className="intro-texts">
                 <h1 className="text-white">Welcome to our Social Network App</h1>
                 <p>
-                  Connect with your friends and the world around you on our social platform. Share your thoughts, photos, and experiences with a vibrant community of like-minded individuals. Join us today and be part of the conversation!.<br /><br/><h4>Join us today and be part of the conversation!</h4>
-                  <h3>Developed By Honelign Y.</h3>
+                  Connect with your friends in Ethiopia and the world around you on our social platform. Share your thoughts, photos, and experiences with a vibrant community of like-minded individuals. Join us today and be part of the conversation!.<br /><br/><h4>Join us today and be part of the conversation!</h4>
                 </p>
                 <button className="btn btn-primary">Learn More</button>
               </div>
