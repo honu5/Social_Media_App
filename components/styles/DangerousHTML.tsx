@@ -11,8 +11,8 @@ const DangerousHTML = ({ html }: any): any => (
 const Root = styled.span`
   img {
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    height: 99%;
+    border-radius: 20px;
   }
 `;
 

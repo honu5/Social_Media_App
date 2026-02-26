@@ -13,5 +13,5 @@ export const ADD_FRIEND = gql`
     }
   }
 `;
-
+//Deployment bug fix
 export default {};

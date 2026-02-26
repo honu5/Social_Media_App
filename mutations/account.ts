@@ -15,5 +15,6 @@ export const PUBLISH_ACCOUNT = gql`
     }
   }
 `;
+//Vercel issues on deploying
 
 export default {};

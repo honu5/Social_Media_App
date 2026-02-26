@@ -68,7 +68,6 @@ export default {
   ER: "Eritrea",
   EE: "Estonia",
   ET: "Ethiopia",
-  FK: "Falkland Islands (Malvinas)",
   FO: "Faroe Islands",
   FJ: "Fiji",
   FI: "Finland",

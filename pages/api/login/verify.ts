@@ -4,6 +4,7 @@ import axios from "axios";
 import { verify } from "server/helpers/token";
 import { account } from "server/queries/account";
 import initBodyParser from "server/helpers/initBodyParser";
+//vercel deployment issues
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   initBodyParser();
