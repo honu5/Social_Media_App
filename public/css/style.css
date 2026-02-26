@@ -43,58 +43,7 @@ h6.grey {
   margin: 0 auto 20px;
 }
 
-.text-white {
-  color: #fff;
-}
 
-.text-white:hover {
-  color: #fff;
-}
-
-.text-green {
-  color: #8dc63f;
-}
-
-.text-green:hover {
-  color: #39b54a;
-}
-
-.text-red {
-  color: #ef4136;
-}
-
-.text-red:hover {
-  color: #d6100b;
-}
-
-.profile-link {
-  font-weight: 600;
-}
-
-.text-muted {
-  color: #939598;
-}
-
-a {
-  color: #27aae1;
-}
-
-a:hover {
-  color: #149ac9;
-}
-
-a,
-a:active,
-a:focus {
-  outline: none;
-}
-
-section h1.section-title {
-  font-family: "Agency FB", sans-serif;
-  font-size: 215px;
-  color: #e6e7e8;
-  margin-bottom: -55px;
-}
 
 section h2.sub-title {
   font-family: "Agency FB", sans-serif;
@@ -129,10 +78,7 @@ section .wrapper {
   position: relative;
 }
 
-.page-title-section h1 {
-  font-family: "Agency FB", sans-serif;
-  font-size: 50px;
-}
+
 
 #page-contents {
   padding: 30px 0 50px;
@@ -326,6 +272,64 @@ textarea {
   transform: translateY(-50%);
   cursor: pointer;
 }
+
+.text-white {
+  color: #fff;
+}
+
+.text-white:hover {
+  color: #fff;
+}
+
+section h1.section-title {
+  font-family: "Agency FB", sans-serif;
+  font-size: 215px;
+  color: #e6e7e8;
+  margin-bottom: -55px;
+}
+.text-green {
+  color: #8dc63f;
+}
+
+.text-green:hover {
+  color: #39b54a;
+}
+
+.text-red {
+  color: #ef4136;
+}
+
+.text-red:hover {
+  color: #d6100b;
+}
+
+.profile-link {
+  font-weight: 600;
+}
+
+.text-muted {
+  color: #939598;
+}
+
+a {
+  color: #27aae1;
+}
+
+a:hover {
+  color: #149ac9;
+}
+
+a,
+a:active,
+a:focus {
+  outline: none;
+}
+.page-title-section h1 {
+  font-family: "Agency FB", sans-serif;
+  font-size: 50px;
+}
+
+
 
 .panel-default > .panel-heading .panel-title a:hover,
 .panel-default > .panel-heading .panel-title a:active,

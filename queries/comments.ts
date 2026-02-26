@@ -1,5 +1,7 @@
 import gql from "graphql-tag";
 
+//Comments by post id query, used to get comments for a specific post, also gets the creator of the comment and their avatar url and name
+
 export const COMMENTS_BY_POST_ID = gql`
   query($id: ID!) {
     posts(where: { id: $id }) {
