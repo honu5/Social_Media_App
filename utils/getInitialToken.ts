@@ -2,7 +2,7 @@ import cookie from "cookie";
 import { NextApiRequest } from "next";
 import Storage from "constants/storage";
 
-const getInitialToken = (req: NextApiRequest) => {
+const getInitialToken = (req?: NextApiRequest) => {
   let token: string | null = null;
   if (process.browser) {
     if (localStorage[Storage.TOKEN]) {

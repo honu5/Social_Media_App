@@ -25,13 +25,10 @@ const Home = ({ userId }: { userId: string | null }) => {
           <div className="row">
             <div className="col-sm-5">
               <div className="intro-texts">
-                <h1 className="text-white">Add headline here !!!!</h1>
+                <h1 className="text-white">Welcome to our Social Network App</h1>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  Connect with your friends and the world around you on our social platform. Share your thoughts, photos, and experiences with a vibrant community of like-minded individuals. Join us today and be part of the conversation!.<br /><br/><h4>Join us today and be part of the conversation!</h4>
+                  <h3>Developed By Honelign Y.</h3>
                 </p>
                 <button className="btn btn-primary">Learn More</button>
               </div>
