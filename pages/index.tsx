@@ -29,6 +29,7 @@ const Home = ({ userId }: { userId: string | null }) => {
                 <p>
                   Connect with your friends in Ethiopia and the world around you on our social platform. Share your thoughts, photos, and experiences with a vibrant community of like-minded individuals. Join us today and be part of the conversation!.<br /><br/><h4>Join us today and be part of the conversation!</h4>
                 </p>
+                <h3>Ethiopian Social Media App</h3>
                 <button className="btn btn-primary">Learn More</button>
               </div>
             </div>
